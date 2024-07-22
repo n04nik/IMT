@@ -16,7 +16,8 @@ def calculate_bmi():
       messagebox.showinfo('bmi-pythonguides', f'ИМТ = {bmi} соответствует избыточному весу')
    else:
       messagebox.showinfo('bmi-pythonguides', f'ИМТ = {bmi} соответствует ожирению')
- 
+
+
 window = Tk()
 window.title('Калькулятор индекса массы тела (ИМТ)')
 window.geometry('400x300')
