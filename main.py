@@ -15,7 +15,7 @@ def calculate_bmi():
    elif (bmi > 24.9) and (bmi < 29.9):
       messagebox.showinfo('bmi-pythonguides', f'ИМТ = {bmi} соответствует избыточному весу')
    else:
-      messagebox.showinfo('bmi-pythonguides', f'ИМТ = {bmi} соответствует ожирению')
+       messagebox.showinfo('bmi-pythonguides', f'ИМТ = {bmi} соответствует ожирению')
 
 
 window = Tk()
